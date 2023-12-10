@@ -1,0 +1,87 @@
+/* Regular font */
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('./assets/fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Bold font */
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets/fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in the total width and height */
+    color: hsl(0, 0%, 0%);
+    font-weight:590;
+}
+
+body {
+    background-color: hsl(235, 18%, 26%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 360px;
+    height: 380px;
+    background-color: white;
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 50px;
+}
+.success{
+    font-size: 12px;
+}
+#success-message {
+  font-family: 'Roboto', sans-serif;
+  color: hsl(235, 18%, 26%);
+  line-height: 1.5em;
+  font-weight: 600;
+  /* Add any other styles as needed for your layout */
+}
+
+#success-message b {
+  font-weight: bold;
+}
+
+.container img{
+    height: 42px;
+    width: 42px;
+}
+.container h1{
+    font-family: 'Roboto-Bold',sans-serif;
+    font-size: 40px;
+    
+}
+.button {
+    display: inline-block; /* Ensures the button takes the size of its content */
+     /* Adjust margin as needed */
+  }
+
+  /* Style the button */
+.button button {
+    width: 260px; /* Set the width of the button */
+    height: 40px; /* Set the height of the button */
+    padding: 10px; /* Adjust padding as needed */
+    font-size: 12px; /* Set the font size of the button text */
+    background-color: hsl(234, 29%, 20%); /* Set the background color */
+    color: #fff; /* Set the text color */
+    border: none; /* Remove border for a cleaner look */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 5px;
+  }
+  /* success.css */
+
